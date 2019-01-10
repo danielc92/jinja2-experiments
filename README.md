@@ -2,7 +2,9 @@
 Experimenting with, and learning functionality of jinja2 library outside of the flask environment.
 
 # Before you get started
-Read up on template engines and html.
+- Read up on template engines
+- Need to know html
+- Need to know python/jupyter notebooks
 
 # Setup
 **How to obtain this repository:**
