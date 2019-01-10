@@ -1,36 +1,33 @@
-# Project Title
-A few sentences about the project.
-What are you building?
-What problem are you trying to solve?
-Who is the project for? Timeframe?
+# Jinja2 Experiments
+Experimenting with, and learning functionality of jinja2 library outside of the flask environment.
 
 # Before you get started
-Concepts/Software/Programming modules a user may have to read up on before getting started with this project. eg. 'Read about [neural networks](https://towardsdatascience.com/how-to-build-your-own-neural-network-from-scratch-in-python-68998a08e4f6?gi=44b811975215) before getting started.'
+Read up on template engines and html.
 
 # Setup
 **How to obtain this repository:**
 ```sh
-git clone https//link.to.this.projects.git-repo
+git clone https://github.com/danielc92/jinja2-experiments.git
 ```
 **Modules/dependencies:**
-- `pandas`
-- `requests`
-- `jupyter`
-- `sklearn`
+- `pandas` (data manipulation)
+- `jinja2` (template render engine)
 
 Install the following dependences:
 ```sh
 cd /local/location/of/this/repo
-pip install requirements.txt
+pip install jinja2 pandas
 ```
 
 # Tests
-- Tests performed on this project. What did you do? Which files were used? Was it successful?
+- Built and successfully tested a function (cluster) to convert sequences into groups of groups for purpose of achieving pagination or carding/modals in a static page.
+- Building environment.
+- Importing templates.
+- Inserting variables into templates.
+- Exporting templates to `.html`.
 
 # Contributors
-- Name of Contributor 1
-- Name of Contributor 2
+- Daniel Corcoran
 
 # Sources
-- Sources for techniques/tutorials used in this project to help newcomers
-- Sources for data used in this project
+- [Jinja2 Documentation](http://jinja.pocoo.org/docs/2.10/)
