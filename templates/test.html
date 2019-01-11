@@ -9,17 +9,16 @@
   </head>
   <body>
     <div class="container">
-        <h1 class="title">
-          Hello World
-        </h1>
-        <p class="subtitle">
-          My first website with <strong>Bulma</strong>!
-        </p>
+        
+    <section class = "section">
+      <h1 class="title">Hello World</h1>
+      {% include 'welcome.html' %}
+    </section>
     </div>
         {% for dictionary in data %}
-          <section class = "hero is-{{ dictionary[2] }}">
-              <div class="hero-body">
-                <p class="title">{{ dictionary[1] }}</p>
+          <section class = "hero is-{{ dictionary['colour_class'] }}">
+              <div class="hero-body container">
+                <p class="title">{{ dictionary['title'] }}</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
